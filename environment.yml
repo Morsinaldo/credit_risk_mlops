@@ -1,0 +1,22 @@
+name: credit_risk_mlops
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.21.5
+  - uvicorn=0.17.5
+  - requests=2.27.1
+  - fastapi=0.74.0
+  - scikit-learn=1.0.2
+  - python=3.8
+  - jupyterlab=3.2.9
+  - jupyter=1.0.0
+  - ipywidgets=7.6.5
+  - jupyterlab_widgets=1.0.2
+  - git=2.34.1
+  - pydantic=1.9.0
+  - yaml=0.2.5
+  - pip=21.3.1
+  - pandas=1.3.5
+  - pytest=6.2.5
+  - wandb=0.12.14
