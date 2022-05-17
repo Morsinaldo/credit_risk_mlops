@@ -38,6 +38,7 @@ class Person(BaseModel):
     emp_lenght: str
     home_ownership: str
     annual_inc: float
+    verification_status: str
     purpose: str
     dti: float
     delinq_2yrs: float
@@ -51,23 +52,23 @@ class Person(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "loan_amnt": 5000,
+                "loan_amnt": 5000.0,
                 "term": '36 months',
                 "int_rate": 5,
                 "installment": 162.87,
-                "emp_lenght": "10+ years",
+                "emp_length": "10+ years",
                 "home_ownership": "RENT",
                 "annual_inc": 24000,
                 "verification_status": "Verified",
                 "purpose": "car",
                 "dti": 27.65,
-                "delinq_2yrs": 0,
-                "inq_last_6mths": 1,
-                "open_acc": 3,
-                "pub_rec": 0,
-                "revol_bal": 13648,
+                "delinq_2yrs": 0.0,
+                "inq_last_6mths": 1.0,
+                "open_acc": 3.0,
+                "pub_rec": 0.0,
+                "revol_bal": 13648.0,
                 "revol_util": 83.7,
-                "total_acc": 9
+                "total_acc": 9.0
             }
         }
 

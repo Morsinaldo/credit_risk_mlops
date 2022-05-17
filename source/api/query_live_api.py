@@ -39,6 +39,7 @@ print(f"Person: \n loan_amnt: {person['loan_amnt']}\n term: {person['term']}\n"\
       f" emp_lenght: {person['emp_lenght']}\n"\
       f" home_ownership: {person['home_ownership']}\n"\
       f" annual_inc: {person['annual_inc']}\n"\
+      f" verification_status: {person['verification_status']}\n"\
       f" purpose: {person['purpose']}\n"\
       f" dti: {person['dti']}\n"\
       f" delinq_2yrs: {person['delinq_2yrs']}\n"\

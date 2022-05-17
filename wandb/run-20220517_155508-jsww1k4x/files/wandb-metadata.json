@@ -1,0 +1,23 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-17T18:55:11.423675",
+    "startedAt": "2022-05-17T18:55:08.968133",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "source.api.main:app"
+    ],
+    "state": "running",
+    "program": "/Users/Morsinaldo/opt/anaconda3/envs/credit_risk_mlops/bin/uvicorn",
+    "git": {
+        "remote": "https://github.com/Morsinaldo/credit_risk_mlops.git",
+        "commit": "d0833911f56b76d382177d49232fa2a8447e7763"
+    },
+    "email": "morsinaldo.js@outlook.com",
+    "root": "/Users/Morsinaldo/Desktop/credit_risk_mlops",
+    "host": "MacBook-Pro-de-Morsinaldo.local",
+    "username": "Morsinaldo",
+    "executable": "/Users/Morsinaldo/opt/anaconda3/envs/credit_risk_mlops/bin/python"
+}
