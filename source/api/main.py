@@ -35,7 +35,7 @@ class Person(BaseModel):
     term: str
     int_rate: float
     installment: float
-    emp_lenght: str
+    emp_length: str
     home_ownership: str
     annual_inc: float
     verification_status: str
