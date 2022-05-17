@@ -14,7 +14,7 @@ person = {
         "term": '36 months',
         "int_rate": 5,
         "installment": 162.87,
-        "emp_lenght": '10+ years',
+        "emp_length": '10+ years',
         "home_ownership": 'RENT',
         "annual_inc": 24000,
         "verification_status": "Verified",
@@ -36,7 +36,7 @@ response = requests.post(f"{url}/predict",json=person)
 print(f"Request: {url}/predict")
 print(f"Person: \n loan_amnt: {person['loan_amnt']}\n term: {person['term']}\n"\
       f" int_rate: {person['int_rate']}\n installment: {person['installment']}\n"\
-      f" emp_lenght: {person['emp_lenght']}\n"\
+      f" emp_lenght: {person['emp_length']}\n"\
       f" home_ownership: {person['home_ownership']}\n"\
       f" annual_inc: {person['annual_inc']}\n"\
       f" verification_status: {person['verification_status']}\n"\
