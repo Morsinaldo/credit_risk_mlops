@@ -1,6 +1,6 @@
 """
-Creator: Ivanovitch Silva
-Date: 18 April 2022
+Creator: Morsinaldo Medeiros
+Date: 17 Maio 2022
 API testing
 """
 from fastapi.testclient import TestClient
@@ -26,7 +26,7 @@ def test_get_inference_low_income():
         "term": '36 months',
         "int_rate": 5,
         "installment": 162.87,
-        "emp_lenght": "10+ years",
+        "emp_length": "10+ years",
         "home_ownership": "RENT",
         "annual_inc": 24000,
         "verification_status": "Verified",
@@ -55,7 +55,7 @@ def test_get_inference_high_income():
         "term": '36 months',
         "int_rate": 12.42,
         "installment": 701.73,
-        "emp_lenght": "10+ years",
+        "emp_length": "10+ years",
         "home_ownership": "RENT",
         "annual_inc": 105000,
         "verification_status": "Verified",
