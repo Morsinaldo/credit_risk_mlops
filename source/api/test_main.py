@@ -19,7 +19,7 @@ def test_root():
 
 # a unit test that tests the status code and response 
 # for an instance with a low income
-def test_get_inference_low_income():
+def test_get_inference_fully_paid():
 
     person = {
         "loan_amnt": 5000.0,
@@ -48,7 +48,7 @@ def test_get_inference_low_income():
 
 # a unit test that tests the status code and response 
 # for an instance with a high income
-def test_get_inference_high_income():
+def test_get_inference_charged_off():
 
     person = {
         "loan_amnt": 21000.0,
