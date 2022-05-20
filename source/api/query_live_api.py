@@ -29,8 +29,8 @@ person = {
         "total_acc": 9.0
     }
 
-url = "http://127.0.0.1:8000"
-#url = "https://risk-credit-mlops.herokuapp.com"
+#url = "http://127.0.0.1:8000"
+url = "https://risk-credit-mlops.herokuapp.com"
 response = requests.post(f"{url}/predict",json=person)
 
 print(f"Request: {url}/predict")
