@@ -1,4 +1,4 @@
-https://github.com/Morsinaldo/credit_risk_mlops"""
+"""
 Creator: Morsinaldo Medeiros
 Date: 16 Maio 2022
 Define classes used in the pipeline
