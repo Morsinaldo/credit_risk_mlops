@@ -44,6 +44,6 @@ Nosso trabalho teve início com a análise exploratória dos dados, removendo va
 
 ## Referências
 
-https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data
+https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data  
 https://app.dataquest.io
 
