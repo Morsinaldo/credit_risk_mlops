@@ -78,7 +78,7 @@ pytest source/api -vv -s
 
 <center><img width="800" src="images/terminal.png"></center>
 
-##Heroku
+## Heroku
 
 1. Sign up for free and experience [Heroku](https://signup.heroku.com/login).
 2. Now, it's time to create a new app. It is very important to connect the APP to our Github repository and enable the automatic deploys.
