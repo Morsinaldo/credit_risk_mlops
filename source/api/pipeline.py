@@ -1,5 +1,5 @@
 """
-Creator: Morsinaldo Medeiros
+Creator: Morsinaldo Medeiros and Alessandro Neto
 Date: 16 Maio 2022
 Define classes used in the pipeline
 """

@@ -1,5 +1,5 @@
 """
-Creator: Morsinaldo Medeiros
+Creator: Morsinaldo Medeiros and Alessandro Neto
 Date: 17 Maio 2022
 API testing
 """

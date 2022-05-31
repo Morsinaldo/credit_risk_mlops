@@ -1,5 +1,5 @@
 """
-Creator: Morsinaldo Medeiros
+Creator: Morsinaldo Medeiros and Alessandro Neto
 Date: 16 Maio de 2022
 Script that POSTS to the API using the requests 
 module and returns both the result of 

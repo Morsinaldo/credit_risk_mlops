@@ -1,5 +1,5 @@
 """
-Creator: Morsinaldo Medeiros
+Creator: Morsinaldo Medeiros and Alessandro Neto
 Date: 16 Maio 2022
 Create API
 """
@@ -80,7 +80,7 @@ async def root():
     """<p><span style="font-size:20px">In this project, we will apply the skills """\
         """acquired in the Deploying a Scalable ML Pipeline in Production course to develop """\
         """a classification model on publicly available"""\
-        """<a href="http://archive.ics.uci.edu/ml/datasets/Adult"> Census Bureau data</a>.</span></p>"""
+        """<a href="https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data/code"> Kaggle</a>.</span></p>"""
 
 # run the model inference and use a Person data structure via POST to the API.
 @app.post("/predict")
