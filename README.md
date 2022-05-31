@@ -21,9 +21,9 @@ So, in general, the notebooks used were divided into 7 parts:
   6. Training
   7. Test
 
-You can read more about the notebook walkthrough in our [Medium]() article
+You can read more about the notebook walkthrough in our [Medium](https://medium.com/@alessandro.pereira.700/from-classic-models-to-production-models-8d4ab873ac4d) article
 
-##Anaconda Environment
+## Anaconda Environment
 
 Create a conda environment with ``environment.yml``:
 
