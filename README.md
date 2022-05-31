@@ -11,7 +11,7 @@ Eu (Morsinaldo Medeiros) e Alessandro Pereira, somos alunos de pós graduação 
 
 O lending club é um mercado de emprestimos pessoais no qual cada mutuário realiza um cadastro, fornecendo informações como histórico financeiro passado, o motivo do empréstimo e muito mais.
 
-O banco de dados obtido no site [Kaggle](https://www.kaggle.com/code/samaxtech/credit-risk-modeling-eda-lr-rf-and-ensemble) possui um total de 52 colunas e 42537 linhas.
+O banco de dados obtido no site [Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data) possui um total de 52 colunas e 42537 linhas.
 
 <details>
 <summary>Variáveis utilizadas</summary>
@@ -44,6 +44,6 @@ Nosso trabalho teve início com a análise exploratória dos dados, removendo va
 
 ## Referências
 
-https://www.kaggle.com/code/samaxtech/credit-risk-modeling-eda-lr-rf-and-ensemble  
+https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data  
 https://app.dataquest.io
 
