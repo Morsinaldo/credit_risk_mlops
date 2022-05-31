@@ -23,7 +23,7 @@ So, in general, the notebooks used were divided into 7 parts:
 
 You can read more about the notebook walkthrough in our [Medium]() article
 
-##Anaconda Environment
+## Anaconda Environment
 
 Create a conda environment with ``environment.yml``:
 
