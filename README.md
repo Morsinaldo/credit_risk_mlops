@@ -23,7 +23,7 @@ So, in general, the notebooks used were divided into 7 parts:
 
 You can read more about the notebook walkthrough in our [Medium]() article
 
-Anaconda Environment
+##Anaconda Environment
 
 Create a conda environment with ``environment.yml``:
 
@@ -78,11 +78,57 @@ pytest source/api -vv -s
 
 <center><img width="800" src="images/terminal.png"></center>
 
+##Heroku
+
+1. Sign up for free and experience [Heroku](https://signup.heroku.com/login).
+2. Now, it's time to create a new app. It is very important to connect the APP to our Github repository and enable the automatic deploys.
+3. Install the Heroku CLI following the [instructions](https://devcenter.heroku.com/articles/heroku-cli).
+4. Sign in to heroku using terminal
+```bash
+heroku login
+```
+5. In the root folder of the project check the heroku projects already created.
+```bash
+heroku apps
+```
+6. Check buildpack is correct: 
+```bash
+heroku buildpacks --app risk-credit-mlops
+```
+7. Update the buildpack if necessary:
+```bash
+heroku buildpacks:set heroku/python --app risk-credit-mlops
+```
+8. When you're running a script in an automated environment, you can [control Wandb with environment variables](https://docs.wandb.ai/guides/track/advanced/environment-variables) set before the script runs or within the script. Set up access to Wandb on Heroku, if using the CLI: 
+```bash
+heroku config:set WANDB_API_KEY=xxx --app risk-credit-mlops
+```
+9. The instructions for launching an app are contained in a ```Procfile``` file that resides in the highest level of your project directory. Create the ```Procfile``` file with:
+```bash
+web: uvicorn source.api.main:app --host=0.0.0.0 --port=${PORT:-5000}
+```
+10. Configure the remote repository for Heroku:
+```bash
+heroku git:remote --app risk-credit-mlops
+```
+11. Push all files to remote repository in Heroku. The command below will install all packages indicated in ``requirements.txt`` to Heroku VM. 
+```bash
+git push heroku main
+```
+12. Check the remote files run:
+```bash
+heroku run bash --app risk-credit-mlops
+```
+13. If all previous steps were done with successful you will see the message below after open: ```https://high-income-app.herokuapp.com/```.
+14. For debug purposes whenever you can fetch your app’s most recent logs, use the [heroku logs command](https://devcenter.heroku.com/articles/logging#view-logs):
+```bash
+heroku logs
+```
 
 ## About Us
 I (Morsinaldo Medeiros) and Alessandro Neto are students of the Postgraduate Program in Electrical and Computer Engineering (PPgEEC) at the Federal University of Rio Grande do Norte (UFRN). As the first project of the EEC1509 — Machine Learning discipline, we took a classic machine learning model and adapted it to a pipeline, which contains good standardization practices in order to put the created model into production.
 
-## Referências
+## References
 
 https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data  
 https://app.dataquest.io
