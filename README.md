@@ -1,17 +1,27 @@
 # credit_risk_mlops
 
+## Introduction
+Credit risk is something that can generate large profits or large losses depending on the size of the risk. So, to try to mitigate the risk of investors losing money, a machine learning model was created that predicts whether a person will pay back the loan on time or not. Obviously, the model is not 100% accurate, and is even a problem involving ethical issues, since a person could pay the loan strictly on time, even if the algorithm has predicted that he or she would not pay. So the model created is only for didactic and scientific purposes.
 
-## Introdução 
-Eu (Morsinaldo Medeiros) e Alessandro Pereira, somos alunos de pós graduação em engenharia da computação pela Universidade Federal do Rio Grande do Norte (UFRN).Como primeiro projeto da matéria EEC1509 - Aprendizagem de Máquina criamos um modelo em machine learning.
+The data consists of approved loans from 2007 to 2011 from [Lending Club](www.lendingclub.com), a personal loan company that matches borrowers with people who want to lend money to get a financial return on it. The dataset contains 42537 rows and 52 columns and is available on both the github directory and the [Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data) website.
 
-## Sobre os dados
+## Model Card
 
 <img align="center" src="https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2019/02/LC-Logo-Official-min-1100x200.png" />
 
+So, in general, the notebooks used were divided into 7 parts:
+
+  1. The search for data
+  2. Exploratory analysis
+  3. Pre-Processing
+  4. Tests
+  5. Splitting the data between training and testing.
+  6. Training
+  7. Test
 
 O lending club é um mercado de emprestimos pessoais no qual cada mutuário realiza um cadastro, fornecendo informações como histórico financeiro passado, o motivo do empréstimo e muito mais.
 
-O banco de dados obtido no site [Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data) possui um total de 52 colunas e 42537 linhas.
+O banco de dados obtido no site  possui um total de 52 colunas e 42537 linhas.
 
 <details>
 <summary>Variáveis utilizadas</summary>
@@ -37,10 +47,9 @@ O banco de dados obtido no site [Kaggle](https://www.kaggle.com/datasets/samaxte
 
 </details>
 
-## Objetivos
 
-Nosso trabalho teve início com a análise exploratória dos dados, removendo variáveis redundantes e demais variaveis as quais são seriam apropiadas. Para então criarmos um modelo na qual com as informações selecionadas, conseguir informar os status de impréstimo do mutuário, se ele pagou ou está devendo.
-
+## About Us
+I (Morsinaldo Medeiros) and Alessandro Neto are students of the Postgraduate Program in Electrical and Computer Engineering (PPgEEC) at the Federal University of Rio Grande do Norte (UFRN). As the first project of the EEC1509 — Machine Learning discipline, we took a classic machine learning model and adapted it to a pipeline, which contains good standardization practices in order to put the created model into production.
 
 ## Referências
 
