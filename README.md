@@ -131,6 +131,8 @@ I (Morsinaldo Medeiros) and Alessandro Neto are students of the Postgraduate Pro
 ## References
 
 Main reference - [Ivanovitch's git repo](https://github.com/ivanovitchm/colab2mlops)
+
 [Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data)
+
 [Dataquest](https://app.dataquest.io)
 
