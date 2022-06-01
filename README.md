@@ -126,10 +126,11 @@ heroku logs
 ```
 
 ## About Us
-I (Morsinaldo Medeiros) and Alessandro Neto are students of the Postgraduate Program in Electrical and Computer Engineering (PPgEEC) at the Federal University of Rio Grande do Norte (UFRN). As the first project of the EEC1509 — Machine Learning discipline, we took a classic machine learning model and adapted it to a pipeline, which contains good standardization practices in order to put the created model into production.
+I (Morsinaldo Medeiros) and Alessandro Neto are students of the Postgraduate Program in Electrical and Computer Engineering (PPgEEC) at the Federal University of Rio Grande do Norte (UFRN). As the first project of the [EEC1509](https://github.com/ivanovitchm/ppgeecmachinelearning) — Machine Learning course taught by [Ivanovitch Silva](https://github.com/ivanovitchm), we took a classic machine learning model and adapted it to a pipeline, which contains good standardization practices in order to put the created model into production.
 
 ## References
 
-https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data  
-https://app.dataquest.io
+Main reference - [Ivanovitch's git repo](https://github.com/ivanovitchm/colab2mlops)
+[Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data)
+[Dataquest](https://app.dataquest.io)
 
